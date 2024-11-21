@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                // Versión de JavaScript a la que se compilará
+      "module": "CommonJS",             // Sistema de módulos a usar (usado por Node.js)
+      "outDir": "./dist",               // Carpeta donde se guardarán los archivos compilados
+      "rootDir": "./src",               // Carpeta raíz de los archivos fuente
+      "strict": true,                   // Habilita todas las verificaciones estrictas
+      "esModuleInterop": true,          // Permite importar módulos CommonJS como ES6
+      "resolveJsonModule": true,        // Permite importar archivos .json
+      "skipLibCheck": true              // Ignora errores en tipos de dependencias externas
+    },
+    "include": ["src"],                 // Archivos/folders a compilar
+    "exclude": ["node_modules"]         // Archivos/folders a excluir
+  }
+  
